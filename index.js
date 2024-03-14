@@ -19,10 +19,10 @@ function generateRandomNumber(max) {
         return console.log(`Random Number ${randomNum} is in N. 31-45`);
 
     } else if (randomNum >= 46 && randomNum <= 60) {
-        return console.log(`Random Number ${randomNum} is in G. 31-45`);
+        return console.log(`Random Number ${randomNum} is in G. 46-60`);
 
     } else if (randomNum >= 61 && randomNum <= 75) {
-        return console.log(`Random Number ${randomNum} is in O. 31-45`);
+        return console.log(`Random Number ${randomNum} is in O. 61-75`);
 
     } else {
         return console.log(`Random Number is invalid`);
