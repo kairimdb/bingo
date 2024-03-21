@@ -25,32 +25,12 @@ function generateRandomNumber(max) {
         return console.log(`Random Number ${randomNum} is in O. 61-75`);
 
     } else {
-        return console.log(`Random Number is invalid`);
+        console.log(`Random Number is invalid`);
     }
 
-    // switch(randomNum){
-    // case 1:
-    //     console.log(`Random Number is in B.`)
-    //     break;
+    if (B == true && I == true && N == true && G == true && O == true) {
+        console.log(`Bingo!`);
+    }
 
-
-    //  case 16:
-    //     console.log(`Random Number is in I.`)
-    //     break;
-
-
-    //  case 31:
-    //     console.log(`Random Number is in N.`)
-    //     break;
-
-    // case 46:
-    //     console.log(`Random Number is in G.`)
-    //     break;
-
-
-    // case 61:
-    //     console.log(`Random Number is in O.`)
-    //     break;
 
 }
-//}
